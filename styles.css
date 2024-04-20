@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; /* Плавный скроллинг */
+}
+
+header {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Анимация для блокчейна */
+@keyframes blockchain {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+.blockchain-animation {
+    background: linear-gradient(45deg, #333, #444, #555, #666, #777);
+    background-size: 400% 400%;
+    animation: blockchain 15s infinite alternate;
+}
+
+.blockchain-animation h2,
+.blockchain-animation p {
+    color: #fff;
+}
